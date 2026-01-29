@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 :root {
     --cor1:#FFD700;
     --cor2:#E6C717;
@@ -33,20 +34,23 @@ header nav {
 }
 
 nav > a {
-    padding: 4px;
+    padding: 10px;
     text-decoration: none;
 }
 
 main {
     background-color: white;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     padding: 10px;
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.252);
-    margin-top: 20px;
+}
+
+main h2 {
+    text-indent: 10px;
 }
 
 main p {
     text-align: justify;
-    text-indent: 10px;
+    text-indent: 20px;
 }
